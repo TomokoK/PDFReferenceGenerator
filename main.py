@@ -50,6 +50,11 @@ def main():
         print("ERROR: Data mismatch.")
         sys.exit()
 
+    # Start generating our hits output
+    # Create the output file, overwriting if it already exists
+    #with open('./output/data.txt', 'w') as outputDataFile:
+        # TODO: get data from pdfs
+
 
 if __name__ == "__main__":
     main()
